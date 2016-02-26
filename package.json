@@ -1,0 +1,22 @@
+{
+  "name": "frontend-start",
+  "version": "1.0.0",
+  "description": "The starting template for frontend development",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/impalago/frontend-start.git"
+  },
+  "author": "Ivan Kolesnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/impalago/frontend-start/issues"
+  },
+  "homepage": "https://github.com/impalago/frontend-start#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+}
