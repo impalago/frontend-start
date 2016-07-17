@@ -116,9 +116,8 @@ gulp.task('build', gulp.series('clean',  gulp.parallel('assets', 'sprite', 'sass
 //     When the project is ready and you are ready to do the final assembly, run the command
 //         $ NODE_ENV=production gulp
 gulp.task('default',
-    gulp.series('build',
-        $.if(isDevelopment,
-            gulp.parallel('watch', 'serve')
-        )
+    $.if(isDevelopment,
+        gulp.series('build',gulp.parallel('watch', 'serve')),
+        gulp.series('build')
     )
 );
